@@ -1,0 +1,9 @@
+*.lerna_backup
+*.log
+/packages/frontend-client/src/index.css
+/test/unit/coverage/
+build/
+coverage/
+dist/
+node_modules/
+package-lock.json*

@@ -1,0 +1,12 @@
+{
+  "name": "backend-api-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "apollo-server": "2.0.0-rc.5",
+    "graphql": "0.13.2"
+  }
+}

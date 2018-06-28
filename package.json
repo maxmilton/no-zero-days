@@ -1,0 +1,27 @@
+{
+  "name": "minna-ui-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/backend-api-server",
+    "packages/frontend-client"
+  ],
+  "scripts": {
+    "lint:css": "stylelint **/*.{html,css} --cache --cache-location=/tmp/",
+    "lint:js": "eslint --ignore-path .gitignore --ext js,html .",
+    "lint": "yarn lint:css && yarn lint:js",
+    "test": "jest",
+    "test-ci": "yarn test --coverage --runInBand --ci",
+    "test:dev": "yarn lint && yarn test --watch"
+  },
+  "devDependencies": {
+    "@minna-ui/eslint-config": "0.3.0",
+    "@minna-ui/jest-config": "0.3.0",
+    "@minna-ui/postcss-config": "0.3.0",
+    "@minna-ui/stylelint-config": "0.3.0",
+    "codecov": "3.0.2",
+    "eslint": "5.0.1",
+    "jest": "23.2.0",
+    "postcss": "6.0.23",
+    "stylelint": "9.3.0"
+  }
+}

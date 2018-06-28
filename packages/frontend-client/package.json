@@ -1,0 +1,28 @@
+{
+  "name": "frontend-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "css:build": "postcss src/styles/index.css -o src/index.css",
+    "css:watch": "postcss src/styles/index.css -o src/index.css -w",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "analyse": "source-map-explorer build/static/js/main.*"
+  },
+  "dependencies": {
+    "@minna-ui/css": "0.3.0",
+    "apollo-boost": "0.1.10",
+    "graphql": "0.13.2",
+    "graphql-tag": "2.9.2",
+    "react": "16.4.1",
+    "react-apollo": "2.1.7",
+    "react-dom": "16.4.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "5.0.1",
+    "react-scripts": "1.1.4",
+    "source-map-explorer": "1.5.0"
+  }
+}
