@@ -5,20 +5,21 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "css:build": "postcss src/styles/index.css -o src/index.css",
-    "css:watch": "postcss src/styles/index.css -o src/index.css -w",
+    "XX__css:build": "postcss src/styles/index.css -o src/index.css",
+    "XX__css:watch": "postcss src/styles/index.css -o src/index.css -w",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "analyse": "source-map-explorer build/static/js/main.*"
   },
   "dependencies": {
-    "@minna-ui/css": "0.3.0",
+    "@blueprintjs/core": "2.3.1",
     "apollo-boost": "0.1.10",
     "graphql": "0.13.2",
     "graphql-tag": "2.9.2",
     "react": "16.4.1",
-    "react-apollo": "2.1.7",
-    "react-dom": "16.4.1"
+    "react-apollo": "2.1.8",
+    "react-dom": "16.4.1",
+    "react-transition-group": "2.4.0"
   },
   "devDependencies": {
     "postcss-cli": "5.0.1",
