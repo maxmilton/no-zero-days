@@ -1,6 +1,7 @@
 <!-- markdownlint-disable first-line-h1 -->
 
-[![Build status](https://img.shields.io/travis/MaxMilton/react.js-no-zero-days.svg)](https://travis-ci.com/MaxMilton/react.js-no-zero-days)
+<!-- [![Build status](https://img.shields.io/travis/MaxMilton/react.js-no-zero-days.svg)](https://travis-ci.com/MaxMilton/react.js-no-zero-days) -->
+[![Build status](https://travis-ci.com/MaxMilton/react.js-no-zero-days.svg?branch=master)](https://travis-ci.com/MaxMilton/react.js-no-zero-days)
 [![Coverage status](https://img.shields.io/codecov/c/github/MaxMilton/react.js-no-zero-days.svg)](https://codecov.io/gh/MaxMilton/react.js-no-zero-days)
 [![Licence](https://img.shields.io/github/license/MaxMilton/react.js-no-zero-days.svg)](https://github.com/MaxMilton/react.js-no-zero-days/blob/master/LICENCE)
 
