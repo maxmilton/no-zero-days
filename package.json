@@ -19,7 +19,7 @@
     "@minna-ui/stylelint-config": "0.3.0",
     "codecov": "3.0.2",
     "eslint": "5.0.1",
-    "jest": "23.2.0",
+    "jest": "23.3.0",
     "stylelint": "9.3.0"
   }
 }
