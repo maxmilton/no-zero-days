@@ -3,27 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
-    "XX__css:build": "postcss src/styles/index.css -o src/index.css",
-    "XX__css:watch": "postcss src/styles/index.css -o src/index.css -w",
     "test": "react-scripts test --env=jsdom",
+    "css": "lessc",
     "eject": "react-scripts eject",
-    "analyse": "source-map-explorer build/static/js/main.*"
+    "analyse": "source-map-explorer build/static/js/vendors.* && source-map-explorer build/static/js/main.*"
   },
   "dependencies": {
-    "@blueprintjs/core": "2.3.1",
     "apollo-boost": "0.1.10",
     "graphql": "0.13.2",
     "graphql-tag": "2.9.2",
     "react": "16.4.1",
-    "react-apollo": "2.1.8",
+    "react-apollo": "2.1.9",
     "react-dom": "16.4.1",
-    "react-transition-group": "2.4.0"
+    "semantic-ui-css": "2.3.2",
+    "semantic-ui-react": "0.82.0"
   },
   "devDependencies": {
-    "postcss-cli": "5.0.1",
-    "react-scripts": "1.1.4",
+    "react-scripts": "2.0.0-next.3e165448",
     "source-map-explorer": "1.5.0"
   }
 }
