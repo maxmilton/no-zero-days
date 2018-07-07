@@ -1,5 +1,6 @@
 *.lerna_backup
 *.log
+*.map
 /packages/frontend-client/src/index.css
 /test/unit/coverage/
 build/
