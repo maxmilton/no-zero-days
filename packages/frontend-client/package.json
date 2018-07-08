@@ -18,11 +18,11 @@
     "react-apollo": "2.1.9",
     "react-dom": "16.4.1",
     "semantic-ui-css": "2.3.2",
+    "semantic-ui-less": "2.3.2",
     "semantic-ui-react": "0.82.0"
   },
   "devDependencies": {
-    "@minna-ui/jest-config": "0.5.0",
-    "react-scripts": "2.0.0-next.b2fd8db8",
+    "react-scripts": "2.0.0-next.3e165448",
     "source-map-explorer": "1.5.0"
   }
 }

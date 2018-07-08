@@ -19,7 +19,7 @@ class App extends Component {
     return <ApolloProvider client={client}>
         <Container className="App">
           <header className="header">
-            <h1>No Zero Days Tracker</h1>
+            <h1>No Zero Days</h1>
           {/* TODO: Get email from user auth mechanism */}
             <div className="user-menu">
               <User email="max@wearegenki.com" />
