@@ -12,10 +12,24 @@ export default class Score extends Component {
   render() {
     return (
       <div>
-        {this.props.value} / {this.props.total}
+        <div className="test">
+          {this.props.value} / {this.props.total}
+        </div>
 
-        <Progress percent={this.state.percent} autoSuccess />
-        <Progress value={this.props.value} total={this.props.total} progress="ratio" />
+        <Button
+          className="button-edit"
+          basic
+          color="blue"
+          content="Edit"
+          icon="edit"
+        />
+
+        <Progress
+          value={this.props.value}
+          total={this.props.total}
+          progress="percent"
+          autoSuccess
+        />
       </div>
     );
   }

@@ -9,7 +9,7 @@ const Task = props => (
       <Input
         className="task-input"
         transparent
-        size="huge"
+        size="massive"
         value={props.title}
         onChange={props.handleChange}
       />
@@ -18,18 +18,19 @@ const Task = props => (
     <Card.Content extra>
       <Icon name="gem outline" />
       {props.value} points
+
       <Button
-        floated="right"
-        basic
-        color="red"
-        icon="trash alternate outline"
-      />
-      <Button
-        floated="right"
+        className="button-edit"
         basic
         color="blue"
         content="Edit"
         icon="edit"
+      />
+
+      <Button
+        basic
+        color="red"
+        icon="trash alternate outline"
       />
     </Card.Content>
   </Card>

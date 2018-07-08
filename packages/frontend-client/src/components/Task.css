@@ -7,6 +7,16 @@
   border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
+.ui.card > .extra {
+  display: flex;
+  align-items: center;
+}
+
 .gem.icon {
   margin-right: 0.5em;
+}
+
+.ui.button-edit {
+  margin-right: 1em;
+  margin-left: auto;
 }

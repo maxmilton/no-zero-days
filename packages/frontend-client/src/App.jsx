@@ -4,10 +4,10 @@ import { ApolloProvider } from 'react-apollo';
 import { Container } from 'semantic-ui-react';
 import TaskGroup from './components/TaskGroup';
 import User from './components/User';
+import Seeker from './components/Seeker';
 import Score from './components/Score';
 
 import './App.css';
-import logo from './logo.svg';
 
 const client = new ApolloClient({
   // FIXME: Add PROD uri
@@ -18,12 +18,15 @@ class App extends Component {
   render() {
     return <ApolloProvider client={client}>
         <Container className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to React</h1>
+          <header className="header">
+            <h1>No Zero Days Tracker</h1>
+          {/* TODO: Get email from user auth mechanism */}
+            <div className="user-menu">
+              <User email="max@wearegenki.com" />
+            </div>
           </header>
-
-          <h2>Implementation ideas</h2>
+          {/*
+          <p>Implementation ideas:</p>
 
           <ul>
             <li>Register/login user via google and/or facebook</li>
@@ -35,7 +38,7 @@ class App extends Component {
             <li>Show simple graph of points completed per day</li>
           </ul>
 
-          <h2>Component ideas</h2>
+          <p>Component ideas:</p>
 
           <ul>
             <li>task</li>
@@ -44,8 +47,9 @@ class App extends Component {
             <li>user - gravatar + logout</li>
             <li>score - current, edit min</li>
           </ul>
+          */}
 
-          <User email="max@wearegenki.com" />
+          <Seeker />
           <Score value={0} total={30} />
 
           <TaskGroup />

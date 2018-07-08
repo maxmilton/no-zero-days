@@ -2,6 +2,11 @@ body {
   background: #f7f7f7;
 }
 
-.App-logo {
-  height: 80px;
+.header {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.user-menu {
+  margin-left: auto;
 }
