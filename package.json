@@ -14,7 +14,7 @@
     "test:dev": "yarn lint && yarn test --watch"
   },
   "devDependencies": {
-    "@minna-ui/eslint-config": "0.7.0",
+    "@minna-ui/eslint-config": "0.3.0",
     "@minna-ui/jest-config": "0.7.0",
     "@minna-ui/stylelint-config": "0.7.1",
     "codecov": "3.0.4",
