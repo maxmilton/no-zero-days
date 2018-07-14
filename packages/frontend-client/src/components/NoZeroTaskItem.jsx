@@ -1,18 +1,25 @@
 import React from 'react';
-import { Button, Card, Checkbox, Icon, Input } from 'semantic-ui-react';
-import './Task.css';
+import { Button, Card, Checkbox, Icon, Input, TextArea } from 'semantic-ui-react';
+import NoZeroInput from './NoZeroInput.jsx';
+import './NoZeroTaskItem.css';
 
-const Task = props => (
+const NoZeroTask = props => (
   <Card className="Task" fluid color="blue">
     <Card.Content>
       <Checkbox checked={props.checked} />
       <Input
         className="task-input"
-        transparent
+        // transparent
         size="massive"
         value={props.title}
         onChange={props.handleChange}
       />
+      <TextArea
+        className="task-input"
+        value={props.title}
+        onChange={props.handleChange}
+      />
+      <NoZeroInput value={props.title} onChange={props.handleChange} />
     </Card.Content>
 
     <Card.Content extra>
@@ -36,4 +43,4 @@ const Task = props => (
   </Card>
 );
 
-export default Task;
+export default NoZeroTask;

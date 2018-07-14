@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Button, Progress } from 'semantic-ui-react';
 
-export default class Score extends Component {
+export default class NoZeroSeekDate extends Component {
   constructor(props) {
     super(props);
     this.state = {

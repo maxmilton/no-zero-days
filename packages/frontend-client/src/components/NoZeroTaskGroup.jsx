@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Card } from 'semantic-ui-react';
-import Task from './Task';
+import NoZeroTaskItem from './NoZeroTaskItem.jsx';
 
-class TaskGroup extends Component {
+class NoZeroTaskGroup extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -25,12 +25,16 @@ class TaskGroup extends Component {
   render() {
     return (
       <Card.Group className="TaskGroup">
-        {this.state.tasks.map((task) =>
-          <Task key={task.id} handleChange={this.handleChange} {...task} />
-        )}
+        {this.state.tasks.map(task => (
+          <NoZeroTaskItem
+            key={task.id}
+            handleChange={this.handleChange}
+            {...task}
+          />
+        ))}
       </Card.Group>
     );
   }
 }
 
-export default TaskGroup;
+export default NoZeroTaskGroup;
