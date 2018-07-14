@@ -1,5 +1,5 @@
 {
-  "name": "react.js-no-zero-days-monorepo",
+  "name": "no-zero-days-monorepo",
   "private": true,
   "workspaces": [
     "packages/backend-api-server",

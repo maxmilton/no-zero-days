@@ -1,11 +1,11 @@
 <!-- markdownlint-disable first-line-h1 -->
 
-<!-- [![Build status](https://img.shields.io/travis/MaxMilton/react.js-no-zero-days.svg)](https://travis-ci.com/MaxMilton/react.js-no-zero-days) -->
-[![Build status](https://travis-ci.com/MaxMilton/react.js-no-zero-days.svg?branch=master)](https://travis-ci.com/MaxMilton/react.js-no-zero-days)
-[![Coverage status](https://img.shields.io/codecov/c/github/MaxMilton/react.js-no-zero-days.svg)](https://codecov.io/gh/MaxMilton/react.js-no-zero-days)
-[![Licence](https://img.shields.io/github/license/MaxMilton/react.js-no-zero-days.svg)](https://github.com/MaxMilton/react.js-no-zero-days/blob/master/LICENCE)
+<!-- [![Build status](https://img.shields.io/travis/MaxMilton/no-zero-days.svg)](https://travis-ci.com/MaxMilton/no-zero-days) -->
+[![Build status](https://travis-ci.com/MaxMilton/react.js-no-zero-days.svg?branch=master)](https://travis-ci.com/MaxMilton/no-zero-days)
+[![Coverage status](https://img.shields.io/codecov/c/github/MaxMilton/no-zero-days.svg)](https://codecov.io/gh/MaxMilton/no-zero-days)
+[![Licence](https://img.shields.io/github/license/MaxMilton/no-zero-days.svg)](https://github.com/MaxMilton/no-zero-days/blob/master/LICENCE)
 
-# 💪 React.js No Zero Days Web App
+# 💪 No Zero Days Web App
 
 A **React.js powered personal productivity system** to help you achieve something every single day and build a habit of daily self improvement.
 
@@ -15,11 +15,13 @@ Live demo: <https://nozerodays.maxmilton.com> _(coming soon)_.
 
 ## Technical overview
 
-This project is a fun way for me to make something substantial using a React based tech stack. Built using:
+This project is a fun way for me to make something substantial using a React based tech stack. I used [Vue.js](https://vuejs.org/) in many projects in the past and I've recently shifted to [Svelte](https://svelte.technology/guide) as my framework of choice. I still use React in client projects but I realised I didn't have open source React projects, hence this concept was born.
+
+**Built using:**
 
 * [React.js](https://reactjs.org/) JavaScript framework
 * [Semantic UI](https://semantic-ui.com/) framework + [Semantic UI React](https://react.semantic-ui.com/) + [LESS](http://lesscss.org/) CSS preprocessor
-* [GraphQL](https://graphql.org/) API + [Apollo](https://www.apollographql.com/) GraphQL server/client
+* [GraphQL](https://graphql.org/) API with [Apollo](https://www.apollographql.com/) GraphQL server/client
 * [MongoDB](https://www.mongodb.com/) NoSQL database
 * [Jest](http://jestjs.io) test framework
 * [Babel](https://babeljs.io) JavaScript transpiler + [Webpack](https://webpack.js.org) asset bundler
@@ -56,7 +58,7 @@ Unit | Functionality
 
 ## Licence
 
-`React.js No Zero Days` is an MIT licensed open source project. See [LICENCE](https://github.com/MaxMilton/react.js-no-zero-days/blob/master/LICENCE).
+`No Zero Days` is an MIT licensed open source project. See [LICENCE](https://github.com/MaxMilton/no-zero-days/blob/master/LICENCE).
 
 -----
 
