@@ -50,7 +50,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.0.0-beta.46", "@babel/core@^7.0.0-beta.52":
+"@babel/core@^7.0.0-beta.46":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.0.0-beta.52.tgz#f27a9a468f8cf9c860aabca5f6084fa52fbc6e55"
   dependencies:
@@ -906,7 +906,7 @@
     "@babel/helper-plugin-utils" "7.0.0-beta.46"
     "@babel/helper-simple-access" "7.0.0-beta.46"
 
-"@babel/plugin-transform-modules-commonjs@7.0.0-beta.52", "@babel/plugin-transform-modules-commonjs@^7.0.0-beta.52":
+"@babel/plugin-transform-modules-commonjs@7.0.0-beta.52":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.0.0-beta.52.tgz#0104ef183cdc2fd43d0860211cccce79ef18017e"
   dependencies:
@@ -1665,15 +1665,6 @@
   version "0.35.0"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.35.0.tgz#23ad7eb7c9789e69c7c3fa54df8fc311cd7fc4b1"
 
-"@minna-ui/eslint-config@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.7.0.tgz#0fdb154664b3199d1c25f0c265c7608b29bd36ab"
-  dependencies:
-    eslint-config-airbnb-base "^13.0.0"
-    eslint-plugin-html "^4.0.5"
-    eslint-plugin-import "^2.13.0"
-    eslint-plugin-jest "^21.17.0"
-
 "@minna-ui/eslint-config@0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.8.0.tgz#7badcd15f881019b8176bc75ca5c18cd3f02424c"
@@ -1682,17 +1673,6 @@
     eslint-plugin-html "^4.0.5"
     eslint-plugin-import "^2.13.0"
     eslint-plugin-jest "^21.17.0"
-
-"@minna-ui/jest-config@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.7.0.tgz#8d3ff8520e8661a3383cdc635a0c77ffbf9d2d22"
-  dependencies:
-    "@babel/core" "^7.0.0-beta.52"
-    "@babel/plugin-transform-modules-commonjs" "^7.0.0-beta.52"
-    "@types/jest" "^23.1.5"
-    "@types/node" "^10.5.2"
-    babel-core "^7.0.0-bridge.0"
-    babel-jest "^23.2.0"
 
 "@minna-ui/jest-config@0.8.0":
   version "0.8.0"
@@ -1704,13 +1684,6 @@
     "@types/node" "^10.5.2"
     babel-core "^7.0.0-bridge.0"
     babel-jest "^23.4.0"
-
-"@minna-ui/stylelint-config@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@minna-ui/stylelint-config/-/stylelint-config-0.7.1.tgz#c4e8de10275635a773cbb543b58151347d4e1e6f"
-  dependencies:
-    stylelint-config-standard "^18.2.0"
-    stylelint-order "^0.8.1"
 
 "@minna-ui/stylelint-config@0.8.0":
   version "0.8.0"
@@ -2707,13 +2680,6 @@ babel-jest@^22.4.4:
   dependencies:
     babel-plugin-istanbul "^4.1.5"
     babel-preset-jest "^22.4.4"
-
-babel-jest@^23.2.0:
-  version "23.2.0"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-23.2.0.tgz#14a9d6a3f4122dfea6069d37085adf26a53a4dba"
-  dependencies:
-    babel-plugin-istanbul "^4.1.6"
-    babel-preset-jest "^23.2.0"
 
 babel-loader@8.0.0-beta.0:
   version "8.0.0-beta.0"
@@ -4576,19 +4542,6 @@ eslint-plugin-jsx-a11y@6.0.3:
     damerau-levenshtein "^1.0.0"
     emoji-regex "^6.1.0"
     jsx-ast-utils "^2.0.0"
-
-eslint-plugin-jsx-a11y@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.1.0.tgz#569f6f2d29546cab82cedaa077ec829693b0c42d"
-  dependencies:
-    aria-query "^3.0.0"
-    array-includes "^3.0.3"
-    ast-types-flow "^0.0.7"
-    axobject-query "^2.0.1"
-    damerau-levenshtein "^1.0.4"
-    emoji-regex "^6.5.1"
-    has "^1.0.3"
-    jsx-ast-utils "^2.0.1"
 
 eslint-plugin-jsx-a11y@6.1.1:
   version "6.1.1"
