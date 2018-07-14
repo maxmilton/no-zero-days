@@ -20,7 +20,7 @@ This project is a fun way for me to make something substantial using a React bas
 **Built using:**
 
 * [React.js](https://reactjs.org/) JavaScript framework
-* [Semantic UI](https://semantic-ui.com/) framework + [Semantic UI React](https://react.semantic-ui.com/) + [LESS](http://lesscss.org/) CSS preprocessor
+* [Material Deisgn](https://material.io) with [Material Components for React](https://github.com/material-components/material-components-web-react) + [SASS](https://sass-lang.com) CSS preprocessor
 * [GraphQL](https://graphql.org/) API with [Apollo](https://www.apollographql.com/) GraphQL server/client
 * [MongoDB](https://www.mongodb.com/) NoSQL database
 * [Jest](http://jestjs.io) test framework
