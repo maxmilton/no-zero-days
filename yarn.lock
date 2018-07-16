@@ -1674,13 +1674,13 @@
     eslint-plugin-import "^2.13.0"
     eslint-plugin-jest "^21.17.0"
 
-"@minna-ui/jest-config@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.8.0.tgz#b50851521ccded40666e513eca62ae9311a0fd99"
+"@minna-ui/jest-config@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.9.1.tgz#8aeac0d67f5ec2519abf3bf737a5e9be830ac1a6"
   dependencies:
     "@babel/core" "^7.0.0-beta.53"
     "@babel/plugin-transform-modules-commonjs" "^7.0.0-beta.53"
-    "@types/jest" "^23.1.5"
+    "@types/jest" "^23.1.6"
     "@types/node" "^10.5.2"
     babel-core "^7.0.0-bridge.0"
     babel-jest "^23.4.0"
@@ -1799,9 +1799,9 @@
   version "0.12.6"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.12.6.tgz#3d619198585fcabe5f4e1adfb5cf5f3388c66c13"
 
-"@types/jest@^23.1.5":
-  version "23.1.5"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.1.5.tgz#e31be003956e1fa8c860124d99bea9ae327ae37b"
+"@types/jest@^23.1.6":
+  version "23.1.6"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.1.6.tgz#11c88f738f5b57d1a9dd4970c576a6639b8f0f37"
 
 "@types/long@^3.0.32":
   version "3.0.32"
