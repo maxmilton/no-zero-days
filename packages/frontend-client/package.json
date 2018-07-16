@@ -14,8 +14,8 @@
     "analyse": "source-map-explorer build/static/js/vendors.* && source-map-explorer build/static/js/main.*"
   },
   "dependencies": {
-    "@material/chips": "0.37.0",
-    "@material/list": "0.37.0",
+    "@material/chips": "0.37.1",
+    "@material/list": "0.37.1",
     "@material/react-button": "0.3.0",
     "@material/react-card": "0.3.0",
     "@material/react-fab": "0.3.0",
@@ -25,7 +25,7 @@
     "@material/react-ripple": "0.3.0",
     "@material/react-text-field": "0.3.0",
     "@material/react-top-app-bar": "0.3.0",
-    "@material/typography": "0.35.0",
+    "@material/typography": "0.37.1",
     "apollo-boost": "0.1.10",
     "apollo-client": "2.3.5",
     "graphql": "0.13.2",
