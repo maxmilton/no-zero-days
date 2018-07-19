@@ -6,17 +6,16 @@
     "packages/frontend-client"
   ],
   "scripts": {
-    "lint:css": "stylelint **/*.{html,css} --cache --cache-location=/tmp/",
-    "lint:js": "eslint --ignore-path .gitignore --ext js,html .",
+    "lint:css": "stylelint **/*.{html,css} --cache",
+    "lint:js": "eslint --ext js,html .",
     "lint": "yarn lint:css && yarn lint:js",
-    "test": "jest",
-    "test-ci": "yarn test --coverage --runInBand --ci",
-    "test:dev": "yarn lint && yarn test --watch"
+    "test": "yarn lint && jest --coverage",
+    "test-ci": "jest --runInBand --ci --verbose --coverage"
   },
   "devDependencies": {
-    "@minna-ui/eslint-config": "0.8.0",
-    "@minna-ui/jest-config": "0.8.0",
-    "@minna-ui/stylelint-config": "0.8.0",
+    "@minna-ui/eslint-config": "0.9.0",
+    "@minna-ui/jest-config": "0.9.1",
+    "@minna-ui/stylelint-config": "0.9.0",
     "@types/react": "16.4.6",
     "@types/react-dom": "16.0.6",
     "@types/react-test-renderer": "16.0.1",
