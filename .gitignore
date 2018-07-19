@@ -1,3 +1,4 @@
+*.css
 *.lerna_backup
 *.log
 *.map
@@ -8,4 +9,4 @@ coverage/
 dist/
 node_modules/
 package-lock.json*
-*.css
+.stylelintcache

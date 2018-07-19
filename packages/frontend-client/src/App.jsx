@@ -12,7 +12,6 @@
 import React, { Component } from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
-import { Container } from 'semantic-ui-react';
 import NoZeroTaskGroup from './components/NoZeroTaskGroup';
 import NoZeroUser from './components/NoZeroUser';
 import NoZeroSeekDate from './components/NoZeroSeekDate';
@@ -29,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <ApolloProvider client={client}>
-        <Container className="App">
+        <div className="con">
           <header className="header">
             <h1>No Zero Days</h1>
             <div className="user-menu">
@@ -41,7 +40,7 @@ class App extends Component {
           <NoZeroScore value={0} total={30} />
 
           <NoZeroTaskGroup />
-        </Container>
+        </div>
       </ApolloProvider>
     );
   }
