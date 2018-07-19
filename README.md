@@ -13,6 +13,8 @@ Live demo: <https://nozerodays.maxmilton.com> _(coming soon)_.
 
 <!-- TODO: Add preview screenshot image -->
 
+___NOTE: The project is still in early development and may not yet be fully functional.___
+
 ## Technical overview
 
 This project is a fun way for me to make something substantial using a React based tech stack. I used [Vue.js](https://vuejs.org/) in many projects in the past and I've recently shifted to [Svelte](https://svelte.technology/guide) as my framework of choice. I still use React in client projects but I realised I didn't have open source React projects, hence this concept was born.
@@ -34,7 +36,7 @@ This project is a fun way for me to make something substantial using a React bas
 > "It's not always that we need to do more but rather that we need to focus on less."  
 > — Nathan W. Morris
 
-FIXME: Write this section properly.
+<!-- FIXME: Write this section properly. -->
 
 Get out of the rut of feeling like you didn't achieve anything valuable today.
 
