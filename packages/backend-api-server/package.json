@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "apollo-server": "2.0.0-rc.12",
+    "apollo-server": "2.1.0-alpha.7",
     "graphql": "0.13.2"
   }
 }
