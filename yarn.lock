@@ -1420,7 +1420,16 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
-"@material/react-notched-outline@0.3.0", "@material/react-notched-outline@^0.3.0":
+"@material/react-notched-outline@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-notched-outline/-/react-notched-outline-0.4.0.tgz#2c4553ecf1db56f5b9e21e8c0d58601d25587c0e"
+  dependencies:
+    "@material/notched-outline" "^0.35.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.2"
+
+"@material/react-notched-outline@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@material/react-notched-outline/-/react-notched-outline-0.3.0.tgz#d2a9f4f4b9f8f7b1e80135e12a294054343ad9fe"
   dependencies:
