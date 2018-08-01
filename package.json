@@ -28,7 +28,7 @@
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-react": "7.10.0",
-    "react-test-renderer": "16.4.1",
+    "react-test-renderer": "16.4.2",
     "shx": "0.3.2",
     "stylelint": "9.4.0"
   }
