@@ -14,8 +14,8 @@
     "analyse": "source-map-explorer build/static/js/vendors.* && source-map-explorer build/static/js/main.*"
   },
   "dependencies": {
-    "@material/chips": "0.38.0",
-    "@material/list": "0.38.0",
+    "@material/chips": "0.38.1",
+    "@material/list": "0.38.1",
     "@material/react-button": "0.4.0",
     "@material/react-card": "0.4.0",
     "@material/react-fab": "0.4.0",
