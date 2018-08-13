@@ -1592,7 +1592,16 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
-"@material/react-ripple@0.4.0", "@material/react-ripple@^0.4.0":
+"@material/react-ripple@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.4.1.tgz#b64c1be317fd0b59db503c2f09c47f4953cd10b0"
+  dependencies:
+    "@material/ripple" "^0.38.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.2"
+
+"@material/react-ripple@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.4.0.tgz#e25a6324a895458e5b27badd735c874b9e6a52cf"
   dependencies:
