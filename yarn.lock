@@ -1473,16 +1473,23 @@
     "@material/animation" "^0.34.0"
     "@material/theme" "^0.35.0"
 
-"@material/fab@^0.37.0":
-  version "0.37.1"
-  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.37.1.tgz#d383a89c3b70d0848aad24f92b62bbf1c7da4d17"
+"@material/elevation@^0.38.0":
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.38.0.tgz#c7f8d0c9a28073b0ec62cb76248b76d5ff467bf8"
   dependencies:
     "@material/animation" "^0.34.0"
-    "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.37.1"
+    "@material/theme" "^0.38.0"
+
+"@material/fab@^0.38.0":
+  version "0.38.1"
+  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.38.1.tgz#210cf47d6cc753f2536946a5cde4ebc0f19f7e46"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/elevation" "^0.38.0"
+    "@material/ripple" "^0.38.1"
     "@material/rtl" "^0.36.0"
-    "@material/theme" "^0.35.0"
-    "@material/typography" "^0.37.1"
+    "@material/theme" "^0.38.0"
+    "@material/typography" "^0.38.0"
 
 "@material/floating-label@^0.36.0":
   version "0.36.0"
@@ -1555,12 +1562,12 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
-"@material/react-fab@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@material/react-fab/-/react-fab-0.4.0.tgz#14ed4229d13db2960703a2a0e1d2376500869635"
+"@material/react-fab@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@material/react-fab/-/react-fab-0.4.1.tgz#3dd6a3fa0cee1d3755e0e1577c90093482cd2022"
   dependencies:
-    "@material/fab" "^0.37.0"
-    "@material/react-ripple" "^0.4.0"
+    "@material/fab" "^0.38.0"
+    "@material/react-ripple" "^0.4.1"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.3.2"
@@ -1601,6 +1608,15 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
+"@material/react-ripple@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.4.1.tgz#b64c1be317fd0b59db503c2f09c47f4953cd10b0"
+  dependencies:
+    "@material/ripple" "^0.38.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.2"
+
 "@material/react-text-field@0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@material/react-text-field/-/react-text-field-0.4.0.tgz#043e09baca00527a91ef8d50060cd488cdb58e71"
@@ -1633,6 +1649,14 @@
 "@material/ripple@^0.38.0":
   version "0.38.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.38.0.tgz#c6bdd9b643cccb47e3dd6ba4572577410f241c8c"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/theme" "^0.38.0"
+
+"@material/ripple@^0.38.1":
+  version "0.38.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.38.1.tgz#74e61ed28e7680e0fd990fa50fa1949da456b3cb"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
