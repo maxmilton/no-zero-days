@@ -30,6 +30,6 @@
     "eslint-plugin-react": "7.10.0",
     "react-test-renderer": "16.4.2",
     "shx": "0.3.2",
-    "stylelint": "9.4.0"
+    "stylelint": "9.5.0"
   }
 }
