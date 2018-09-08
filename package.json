@@ -13,7 +13,7 @@
     "test-ci": "jest --runInBand --ci --verbose --coverage"
   },
   "devDependencies": {
-    "@minna-ui/eslint-config": "0.10.0",
+    "@minna-ui/eslint-config": "0.13.0",
     "@minna-ui/jest-config": "0.10.0",
     "@minna-ui/stylelint-config": "0.10.0",
     "@types/react": "16.4.11",
