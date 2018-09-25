@@ -7,6 +7,8 @@
 
 # 💪 No Zero Days Web App
 
+**NOTE: This project is currently on hold. I plan to start again from scratch but using a more simple setup using Preact.**
+
 A **React.js powered personal productivity system** to help you achieve something every single day and build a habit of daily self improvement.
 
 Live demo: <https://nozerodays.maxmilton.com> _(coming soon)_.

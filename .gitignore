@@ -2,11 +2,8 @@
 *.lerna_backup
 *.log
 *.map
-/packages/frontend-client/src/index.css
-/test/unit/coverage/
-build/
-coverage/
 dist/
 node_modules/
+/test/coverage/
 package-lock.json*
 .stylelintcache

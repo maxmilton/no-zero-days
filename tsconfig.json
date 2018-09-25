@@ -1,5 +1,4 @@
-// config for rich intelliSense in VSCode
-
+// config for rich intelliSense in VS Code
 {
   "compilerOptions": {
     "target": "esnext",
@@ -7,16 +6,22 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "allowJs": true,
     "checkJs": true,
+    "pretty": true,
 
+    // REF: https://github.com/developit/preact/issues/1036#issuecomment-385168704
     "jsx": "react",
+    "jsxFactory": "preact.h",
 
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
 
     "baseUrl": "."
   },
